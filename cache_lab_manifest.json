@@ -1,0 +1,16 @@
+{
+  "example_only": true,
+  "measurements_are_real": false,
+  "github_username": "Aibeg1m",
+  "threads": 4,
+  "iterations_per_thread": 60000000,
+  "example_elapsed_ns": {
+    "stride_1": 4800000000,
+    "stride_4": 3000000000,
+    "stride_8": 1200000000,
+    "stride_16": 1100000000,
+    "private": 200000000
+  },
+  "verification_passed": false,
+  "message": "ILLUSTRATIVE PLACEHOLDER, NOT EXECUTED. Run false_sharing_lab.py to generate the real manifest."
+}

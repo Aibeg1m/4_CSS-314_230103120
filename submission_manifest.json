@@ -1,0 +1,58 @@
+{
+  "github_username": "Aibeg1m",
+  "gpu_uuid": "GPU-def9c74c-1926-78bf-2c20-4086147bef2c",
+  "instance_seed": 16045629443551454662,
+  "mpi_ranks": 4,
+  "cartesian_dims": [
+    2,
+    2
+  ],
+  "steps": 400,
+  "global_grid": [
+    512,
+    512
+  ],
+  "kappa_max": 0.1999998957477624,
+  "dt_max": 4.7498020343460835e-06,
+  "dt": 3.7998416274768668e-06,
+  "serialized_ms": 3021.9599720003316,
+  "overlapped_ms": 2842.730644999392,
+  "speedup": 1.0630482973531872,
+  "serialized_gpu_event_ms": 3021.77587890625,
+  "overlapped_gpu_event_ms": 2842.67529296875,
+  "parity_max_diff": 0.0,
+  "parity_passed": true,
+  "ptx_counts": {
+    "st.shared.f64": 5,
+    "ld.shared.f64": 5,
+    "bar.sync": 1
+  },
+  "ptx_audit_passed": true,
+  "energy_trace": [
+    [
+      0,
+      0.03141592608101955,
+      0.0
+    ],
+    [
+      100,
+      0.03141653590517702,
+      1.9976965428941936e-05
+    ],
+    [
+      200,
+      0.0314171716786779,
+      1.930854847543007e-05
+    ],
+    [
+      300,
+      0.03141783158504628,
+      1.867697003863423e-05
+    ],
+    [
+      400,
+      0.03141851403376958,
+      1.807941170600103e-05
+    ]
+  ]
+}
